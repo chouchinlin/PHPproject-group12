@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機: localhost
--- 產生時間： 2019-06-21 13:47:04
+-- 產生時間： 2019-06-21 13:52:17
 -- 伺服器版本: 5.7.17-log
 -- PHP 版本： 5.6.30
 
@@ -448,6 +448,13 @@ CREATE TABLE `album` (
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- 資料表的匯出資料 `album`
+--
+
+INSERT INTO `album` (`albumID`, `name`, `date`) VALUES
+(1561125077, 'HIHI', '2019-06-21');
 
 -- --------------------------------------------------------
 
