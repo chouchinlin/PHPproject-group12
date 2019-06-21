@@ -1,0 +1,272 @@
+li{
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+  }
+  .c{
+    clear:both;
+  }
+  .header{
+    font-family: '微軟正黑體';
+    font-weight:bold;
+  }
+  a{
+    color: #83521e;
+    text-decoration: none;
+    outline: none;
+  }
+  .wrap{
+   min-width: 80%;
+  }
+  .header .topbar{
+    display: block;
+    background: #691917;
+    height: 30px;
+  }
+  .content{
+    background-color: #f7f3ed;  
+    height: 130vh;
+  }
+  .logo h1{
+    float: left;
+    margin-left: 120px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'microsoft yahei';
+  }
+  .identity span{
+    float: right;
+  }
+  .headMenu{
+    float: right;
+    margin-top: 40px;
+  }
+  .headMenu a{
+    font-size: 20px;
+    color: #000;
+  }
+  .headMenu a::before{
+    color: #C8C2B6;
+    font-size: 1em;
+    content: "|";
+    padding: 5px 5px;
+    display: inline-block;
+  }
+  .headMenu a:hover{
+   color:#691917;
+  }
+  
+  .headMenu li{
+    float: right;
+  }
+  .headMenu .tell{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .headMenu .home{
+    margin-right: 20px;
+  }
+  .bf h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'microsoft yahei';
+  }
+  .cmenu{
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .menu{
+    float: left;
+  }
+  
+  .menuh{
+    border-left: solid 5px  #83521e;
+    padding-left: 5px;
+    margin-left: 90px;
+  }
+  .caret {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: 2px;
+      vertical-align: middle;
+      border-top: 4px solid;
+      border-right: 4px solid transparent;
+      border-left: 4px solid transparent;
+  }
+  
+  .cmenu li:hover{
+    background:#83521e;
+  }
+  .cmenu li a:hover{
+    color: #fff;
+  }
+  .cmenu a{
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+    font-family:  'microsoft yahei';
+  }
+
+  .dropdownMenu3 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display:none;
+    float: left;
+    min-width: 160px;
+    font-size: 12px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    padding-inline-start: 0px;
+  }
+  .dropdownMenu2 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display:none;
+    float: left;
+    min-width: 160px;
+    font-size: 12px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    padding-inline-start: 0px;
+  }
+  .dropdownMenu>li>a{
+    font-weight: normal;
+    line-height: 1.42857143;
+    white-space: nowrap;
+  }
+  div.jjj:hover ul{
+    display:block;
+  } 
+  div.aaa:hover ul{
+    display:block;
+  }
+
+  .dlist{
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  .List{
+    position: relative;
+    display: block;
+    padding: 0;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  .type{
+    font-size: 25px;
+  }
+  .box{
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffed97;
+    text-align: center;
+    margin-top: 250px;
+    color: #000;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'microsoft yahei';
+  }
+  .box input[type="text"], .box input[type="text"]{
+    border: 0px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #000;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+
+ .album{
+   border:#691917 3px solid;
+   float:left;
+   font-family: '微軟正黑體';
+   font-weight:bold;
+   width:70%;
+   margin-left:6%;
+   margin-top:30px;
+   padding-left:20px;
+   padding-right:20px;
+ }
+ 
+ .upload{
+   margin-top:20px;
+ }
+ .album div{
+   margin-bottom:20px;
+   border:#691917 1.5px solid;
+   padding-left:20px;
+   padding-right:20px;
+   padding-bottom:20px;
+   font-size:20px;
+ }
+
+
+.album .forma{
+  margin-bottom:5%;
+}
+  
+.album .swiper-container{
+  max-width:90%;
+  margin-bottom:45px;
+}
+
+  .box input[type="text"]:focus, .box input[type="text"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+  }
+  .box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color:#000;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  
+  .box input[type="submit"]:hover{
+    background: #2ecc71;
+  }
+
+  .clear{
+    clear:both;
+  }
